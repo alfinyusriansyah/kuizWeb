@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.banner {
+	width : 100%;
+	position: absolute;
+}
+
+.banner ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.banner ul li{
+	display: inline-block;
+}
+
+.banner ul li a{
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	text-decoration: none;
+}
+
+.banner ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.banner ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.MyAccount{
+	position: absolute;
+	left: 50%;
+	top: 51.5%;
+	transform: translate(-50%,-50%);
+	background:rgba(0,0,0,0.5);
+	padding: 20px;
+	width: 45%;
+	box-shadow: 0 0 10px 5px black;
+}
+
+.MyAccount h2{
+	text-align: center;
+	color: white;
+	padding-top: 15px
+}
+
+.avatar{
+	font-size: 43px;
+	background: #BDC3CF;
+	color: #2c3e50;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	transform: translate(-50% , -50%);
+	border-radius: 50%;
+}
+
+.account{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-bottom: 1px solid white;
+	padding:4px 0; 
+}
+
+.account1{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-bottom: 1px solid white;
+	padding:5px 0;
+}
+
+.account input{
+	width: 100%;
+	padding: 0px 10px;
+	background: none;
+	border:none;
+	outline: none;
+	font-size: 16px;
+	color: white;
+}
+
+.account input::placeholder {
+	color: white;
+}
+
+.account1 input{
+	width: 40px;
+	padding: 10px 10px;
+	background: none;
+	border:none;
+	outline: none;
+	font-size: 14px;
+	color: white;
+}
+
+.account1 label {
+	color: white;
+}
+
+.button{
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 120px;
+	background: none;
+	padding: 8px;
+	border:1px solid white;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: white;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.account2{
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.account2 label {
+	color: white;
+}
+
+.buttom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttom a{
+	margin-left: 530px;
+	margin-top: 15px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.animationarea{
+	background: linear-gradient(to left, #8942a8, #ba382f);
+	width: 100%;
+	height: 100vh;
+}
